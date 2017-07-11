@@ -1,0 +1,43 @@
+body {
+	background-image: url("../images/baseball-field-shadow.jpg");
+	background-position: center;
+	background-repeat: repeat;
+}
+
+@font-face{
+ font-family:'jack-college-font';
+ src: url('JACKPORT-COLLEGE-NCV.ttf');
+}
+
+@font-face{
+ font-family:'digital-clock-font';
+ src: url('DS-DIGIB.ttf');
+}
+
+strong{
+	font-family: "Helvetica";
+	color: blue;
+}
+
+#Progress {
+	font-family: "digital-clock-font";
+	color: red;
+	background: transparent;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#Question {
+	font-family: "jack-college-font";
+	color: black;
+	background: transparent;
+	font-size: 25px;
+}
+
+.radbtn {
+	width: 30px; 
+	height: 20px;
+	border:1px solid;
+	border-color: red;
+	background-color: #fefefe;
+}
